@@ -4,8 +4,8 @@ import About from './components/About'
 import PageNotFound from './components/PageNotFound'
 import MyNavbar from './components/MyNavbar'
 import Contact from './components/Contact'
+import {Helmet} from "react-helmet";
 import { BrowserRouter, Route, Routes } from 'react-router-dom' // NOTE: Switch is replace with Routes in react-router-dom v6
-
 
 const App = () => {
 
