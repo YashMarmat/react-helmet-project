@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom' // NOTE: Switch 
 
 
 const App = () => {
+
   return (
     <div>
       <BrowserRouter>
