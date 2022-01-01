@@ -12,12 +12,17 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <MyNavbar />
+        <MyNavbar />
+        <Helmet>
+          <title>Master Page</title>
+          <meta charSet="utf-8" />
+          <meta name="description" content="A React.js application" />
+        </Helmet>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<PageNotFound />} />          
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
