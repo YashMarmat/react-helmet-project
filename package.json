@@ -22,31 +22,32 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-    "source": "dist",
-    "minifyHtml": {
-      "collapseWhitespace": false,
-      "removeComments": false
-    },
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox"
     ],
-    "eslintConfig": {
-      "extends": [
-        "react-app",
-        "react-app/jest"
-      ]
-    },
-    "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
-    }
+    "puppeteerExecutablePath": "/opt/google/chrome/google-chrome"
+  },
+  "puppeteerArgs": [
+    "--no-sandbox",
+    "--disable-setuid-sandbox"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
+}
