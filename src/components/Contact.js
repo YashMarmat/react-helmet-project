@@ -8,7 +8,7 @@ const Contact = () => {
                 <meta charSet="utf-8" />
                 <title>Contact Page</title>
                 <meta name="description" content="contact page description here" />
-                <link rel="canonical" href="https://zealous-kalam-864daa.netlify.app/contact" />
+                <link rel="canonical" href="https://branch2.d3tq5n7dq9hum4.amplifyapp.com/contact" />
             </Helmet>
             <h1>
                 Contact page
