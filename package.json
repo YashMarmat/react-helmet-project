@@ -23,6 +23,7 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
+    "fixWebpackChunksIssue": false,
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
     "puppeteerExecutablePath": "/opt/google/chrome/google-chrome"
   },
